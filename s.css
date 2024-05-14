@@ -1,0 +1,49 @@
+body {
+    background-image: url('https://img.freepik.com/free-vector/hand-drawn-soft-earth-tones-background_23-2151166365.jpg'); 
+    background-size: cover;
+    background-position: center; 
+        background-repeat: no-repeat; }
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    flex-direction: column;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin-bottom: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(112, 89, 89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.buttons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+        display:flex;
+        justify-content: center; 
+    
+}
+
+button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: rgb(76, 57, 45);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
