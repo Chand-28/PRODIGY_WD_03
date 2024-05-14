@@ -1,0 +1,1 @@
+This is my task 03 of my internship at Prodigy InfoTech. This task is to create a tic tac toe web application. Using HTML to structure, css for styling and JavaScript for interactivity, here is the final project.
